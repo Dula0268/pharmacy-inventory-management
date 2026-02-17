@@ -1,0 +1,19 @@
+﻿<Application x:Class="PharmacyInventory.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PharmacyInventory"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <Application.Resources>
+        <!-- Merge Pharmly theme -->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/PharmlyTheme.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Keep a few simple spacing tokens the app expects -->
+            <Thickness x:Key="DefaultMargin">8</Thickness>
+            <Thickness x:Key="DefaultPadding">6</Thickness>
+            <sys:Double x:Key="ControlFontSize">13</sys:Double>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
