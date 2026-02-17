@@ -1,0 +1,35 @@
+# Visual Studio / .NET
+bin/
+obj/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+.vs/
+.vscode/
+_ReSharper*/
+.idea/
+
+# Publish output & delivery
+publish/
+**/publish/
+PharmacyInventory_ClientDelivery/
+PharmacyInventory_ClientDelivery.zip
+
+# SQLite DB
+*.db
+*.db-wal
+*.db-shm
+
+# Archives & packages
+*.zip
+*.nupkg
+packages/
+
+# Logs and temp
+*.log
+*.tmp
+
+# Others
+*.db-journal
