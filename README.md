@@ -46,6 +46,16 @@ Pharmly is a role-based desktop point-of-sale and inventory system for small pha
 | <img src="docs/assets/login.png" width="380" alt="Login screen"/> | <img src="docs/assets/admin_dashboard.png" width="500" alt="Admin dashboard"/> |
 | Role-aware sign-in for Admin / Cashier | Live stats: sales, expired stock, near-expiry, out-of-stock |
 
+| View inventory | Add product |
+|:---:|:---:|
+| <img src="docs/assets/admin_inventory.png" width="500" alt="Inventory table"/> | <img src="docs/assets/admin_add_product.png" width="500" alt="Add product form"/> |
+| Full stock table with expiry status per item | Medicine/grocery form with Excel import |
+
+| Cashier POS | Settings — user management |
+|:---:|:---:|
+| <img src="docs/assets/cashier_pos.png" width="500" alt="Cashier point of sale"/> | <img src="docs/assets/admin_settings.png" width="500" alt="Admin settings"/> |
+| Cart-based checkout with live stock/expiry status | Add/manage Admin and Cashier accounts |
+
 </div>
 
 ## Features
