@@ -44,6 +44,7 @@ namespace PharmacyInventory
                     // ✅ IMPORTANT: DbContext-based services must NOT be Singleton
                     services.AddScoped<IAuthService, AuthService>();
                     services.AddScoped<IProductService, ProductService>();
+                    services.AddScoped<IProductImportService, ProductImportService>();
                     services.AddScoped<ISalesService, SalesService>();
                     services.AddScoped<IReportService, ReportService>();
 
