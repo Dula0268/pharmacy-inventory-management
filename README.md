@@ -219,9 +219,6 @@ git push -u origin main
 - Send pull requests against the `main` branch.
 - Include descriptive commit messages and follow the commit grouping above.
 
-## License
-
-No `LICENSE` file is present in this repository yet. Contact the project owner for clarification on usage terms.
 
 ---
 
