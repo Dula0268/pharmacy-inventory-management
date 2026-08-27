@@ -33,3 +33,6 @@ packages/
 
 # Others
 *.db-journal
+
+# graphify knowledge graph (regenerable local dev tool output)
+graphify-out/
